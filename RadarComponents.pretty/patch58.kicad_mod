@@ -1,0 +1,13 @@
+(module patch58 (layer F.Cu) (tedit 5A0350F5)
+  (fp_text reference A** (at -5.5372 -8.7122) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value Path (at 1.0414 -8.636) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy 4.148667 3.217333) (xy -8.043333 3.217333) (xy -8.043333 -0.338667) (xy -3.217333 -0.338667)
+    (xy -3.217333 -0.846667) (xy -9.313333 -0.846667) (xy -9.313333 -3.386667) (xy -3.217333 -3.386667)
+    (xy -3.217333 -3.894667) (xy -8.043333 -3.894667) (xy -8.043333 -7.450667) (xy 4.148667 -7.450667)
+    (xy 4.148667 3.217333)) (layer F.Cu) (width 0.01))
+  (pad 1 smd rect (at -8.0518 -2.1082) (size 2.5146 2.5146) (layers F.Cu F.Paste F.Mask))
+)
