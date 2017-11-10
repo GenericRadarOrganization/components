@@ -1,0 +1,18 @@
+(module QuadPoleFilterMirror (layer F.Cu) (tedit 5A04FCFC)
+  (fp_text reference F*** (at 8.9916 -11.6586) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value "BP Filter" (at 6.3246 -14.6304) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy 4.487334 6.35) (xy 9.567334 6.35) (xy 9.567334 8.89) (xy 4.487334 8.89)
+    (xy 4.487334 13.208) (xy 1.947334 13.208) (xy 1.947334 -0.084667) (xy 4.487334 -0.084667)
+    (xy 4.487334 6.35)) (layer F.Cu) (width 0.01))
+  (fp_poly (pts (xy 0.846667 6.35) (xy -1.693333 6.35) (xy -1.693333 -6.604) (xy 0.846667 -6.604)
+    (xy 0.846667 6.35)) (layer F.Cu) (width 0.01))
+  (fp_poly (pts (xy -4.0005 -13.443097) (xy -2.751666 -13.419667) (xy -2.751666 -0.127) (xy -4.0005 -0.10357)
+    (xy -5.249333 -0.08014) (xy -5.249333 -6.604) (xy -10.329333 -6.604) (xy -10.329333 -9.144)
+    (xy -5.249333 -9.144) (xy -5.249333 -13.466527) (xy -4.0005 -13.443097)) (layer F.Cu) (width 0.01))
+  (pad 2 smd rect (at 8.3058 7.62) (size 2.54 2.54) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -9.0678 -7.874) (size 2.54 2.54) (layers F.Cu F.Paste F.Mask))
+)
